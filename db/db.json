@@ -1,18 +1,130 @@
 {
-  "usuarios": [
+  "produtos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Notebook Gamer",
+      "descricaoCurta": "Notebook para jogos",
+      "descricaoCompleta": "Notebook equipado com RTX e processador de última geração.",
+      "imagem": "https://picsum.photos/300?1",
+      "categoria": "Informática",
+      "preco": 5500,
+      "tags": ["gamer", "rtx", "notebook"],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Mouse Gamer",
+      "descricaoCurta": "Mouse RGB",
+      "descricaoCompleta": "Mouse gamer com sensor de alta precisão.",
+      "imagem": "https://picsum.photos/300?2",
+      "categoria": "Periféricos",
+      "preco": 250,
+      "tags": ["rgb", "mouse"],
+      "destaque": false
+    },
+    {
+      "id": 3,
+      "nome": "Teclado Mecânico",
+      "descricaoCurta": "Switch Blue",
+      "descricaoCompleta": "Teclado mecânico para produtividade e jogos.",
+      "imagem": "https://picsum.photos/300?3",
+      "categoria": "Periféricos",
+      "preco": 300,
+      "tags": ["switch", "teclado"],
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "nome": "Monitor 24",
+      "descricaoCurta": "Full HD",
+      "descricaoCompleta": "Monitor Full HD com taxa de atualização de 144Hz.",
+      "imagem": "https://picsum.photos/300?4",
+      "categoria": "Monitores",
+      "preco": 1200,
+      "tags": ["144hz"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "nome": "Headset",
+      "descricaoCurta": "Som surround",
+      "descricaoCompleta": "Headset com microfone removível.",
+      "imagem": "https://picsum.photos/300?5",
+      "categoria": "Áudio",
+      "preco": 350,
+      "tags": ["audio"],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "nome": "Webcam",
+      "descricaoCurta": "1080p",
+      "descricaoCompleta": "Webcam Full HD para reuniões.",
+      "imagem": "https://picsum.photos/300?6",
+      "categoria": "Acessórios",
+      "preco": 180,
+      "tags": ["camera"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "nome": "SSD 1TB",
+      "descricaoCurta": "NVMe",
+      "descricaoCompleta": "SSD NVMe de alta velocidade.",
+      "imagem": "https://picsum.photos/300?7",
+      "categoria": "Armazenamento",
+      "preco": 450,
+      "tags": ["ssd"],
+      "destaque": true
+    },
+    {
+      "id": 8,
+      "nome": "Memória RAM",
+      "descricaoCurta": "16GB DDR4",
+      "descricaoCompleta": "Kit de memória para upgrades.",
+      "imagem": "https://picsum.photos/300?8",
+      "categoria": "Hardware",
+      "preco": 320,
+      "tags": ["ram"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "nome": "Cadeira Gamer",
+      "descricaoCurta": "Ergonômica",
+      "descricaoCompleta": "Cadeira com ajuste de altura.",
+      "imagem": "https://picsum.photos/300?9",
+      "categoria": "Móveis",
+      "preco": 950,
+      "tags": ["cadeira"],
+      "destaque": true
+    },
+    {
+      "id": 10,
+      "nome": "Mesa Gamer",
+      "descricaoCurta": "120cm",
+      "descricaoCompleta": "Mesa resistente para setup gamer.",
+      "imagem": "https://picsum.photos/300?10",
+      "categoria": "Móveis",
+      "preco": 700,
+      "tags": ["mesa"],
+      "destaque": false
+    }
+  ],
+
+  "categorias": [
+    { "id": 1, "nome": "Informática" },
+    { "id": 2, "nome": "Periféricos" },
+    { "id": 3, "nome": "Hardware" },
+    { "id": 4, "nome": "Móveis" }
+  ],
+
+  "comentarios": [
+    {
+      "id": 1,
+      "produtoId": 1,
+      "autor": "Pedro",
+      "texto": "Excelente notebook"
     }
   ]
 }

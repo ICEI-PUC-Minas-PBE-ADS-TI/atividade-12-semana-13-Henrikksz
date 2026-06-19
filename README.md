@@ -6,9 +6,9 @@ Para este projeto, além de migrarmos do JSON para o JSON Server, vamos permitir
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Proposta de projeto escolhida:
+- Nome: Pedro Henrique Guimarães Lopes
+- Matrícula: 901033
+- Proposta de projeto escolhida: 
 - Breve descrição sobre seu projeto:
 
 **Prints do trabalho**
@@ -17,33 +17,63 @@ Para este projeto, além de migrarmos do JSON para o JSON Server, vamos permitir
 
 ```json
 {
-  "cidades": [
+  "produtos": [
     {
       "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
-    }
+      "nome": "Notebook Gamer",
+      "descricaoCurta": "Notebook para jogos",
+      "descricaoCompleta": "Notebook equipado com RTX e processador de última geração.",
+      "imagem": "https://picsum.photos/300?1",
+      "categoria": "Informática",
+      "preco": 5500,
+      "tags": ["gamer", "rtx", "notebook"],
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "nome": "Mouse Gamer",
+      "descricaoCurta": "Mouse RGB",
+      "descricaoCompleta": "Mouse gamer com sensor de alta precisão.",
+      "imagem": "https://picsum.photos/300?2",
+      "categoria": "Periféricos",
+      "preco": 250,
+      "tags": ["rgb", "mouse"],
+      "destaque": false
+    },
+    {
+      "id": 3,
+      "nome": "Teclado Mecânico",
+      "descricaoCurta": "Switch Blue",
+      "descricaoCompleta": "Teclado mecânico para produtividade e jogos.",
+      "imagem": "https://picsum.photos/300?3",
+      "categoria": "Periféricos",
+      "preco": 300,
+      "tags": ["switch", "teclado"],
+      "destaque": true
+    },
   ],
-  "atracoes": [
+
+  "categorias": [
+    { "id": 1, "nome": "Informática" },
+    { "id": 2, "nome": "Periféricos" },
+    { "id": 3, "nome": "Hardware" },
+    { "id": 4, "nome": "Móveis" }
+  ],
+
+  "comentarios": [
     {
       "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
+      "produtoId": 1,
+      "autor": "Pedro",
+      "texto": "Excelente notebook"
     }
   ]
 }
 ```
 
-<< COLOQUE A IMAGEM DA HOME AQUI >>
+[Imagem_Home](./public/assets/images/home.png)
 
-<< COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
+[Imagem_Detalhes](./public/assets/images/detalhes.png)
 
 
 
